@@ -81,7 +81,7 @@ Streamlit UI → Displays answer + source page badges
 | Layer | Tool | Purpose |
 |---|---|---|
 | UI | Streamlit | Chat interface |
-| PDF Parsing | PyMuPDF | Extract text from PDFs |
+| PDF Parsing | PyPDF | Extract text from PDFs |
 | Chunking | LangChain RecursiveCharacterTextSplitter | Smart text splitting |
 | Embeddings | sentence-transformers/all-MiniLM-L6-v2 | Local free embeddings |
 | Vector DB | ChromaDB | Store and search vectors |
